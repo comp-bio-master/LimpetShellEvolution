@@ -20,6 +20,15 @@ You will be working in bash to manipulate the 3d scans of limpet shells we discu
 
 * Ensure that the `admesh2tabdelimited.bash` script works by running it on the `admesh.out` data. This script converts the output of `admesh`, a unix command that extracts information from 3D scans stored in `stl` files, into a "tidy" data file.
 
+```
+# this script takes output from admesh and makes a tidy table of the data
+
+# to run:
+# bash admesh2tabdelimited.bash <input file created by admesh> <tab-delimited output file>
+
+admesh2tabdelimited.bash admesh.out admesh.dat
+```
+
 * Complete the requested updates to the `admesh2tabdelimited.bash` script
 
 * I recommend testing function and troubleshooting as necessary after each change you make to the script
