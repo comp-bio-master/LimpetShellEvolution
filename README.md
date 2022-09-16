@@ -1,3 +1,15 @@
+# admesh2tsv.bash
+
+Converts output from `admesh` into a tidy TSV
+
+Example of usage with provided test data set `admesh.out`:
+
+```bash
+bash admesh2tsv.bash admesh.out > admesh.tsv
+```
+
+---
+
 # LimpetShellEvolution
 
 ## Extracting data from 3D scans of limpet shells to test for fisheries-induced evolution
