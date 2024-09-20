@@ -7,8 +7,16 @@ Converts output from [`admesh`](https://admesh.readthedocs.io/en/latest/) into a
 Example of usage of `admesh2tsv.bash` with provided test data set `admesh.out`:
 
 ```bash
+# bash admesh2tsv.bash <admesh output file>
+bash admesh2tsv.bash admesh.out
+
+# bash admesh2tsv.bash <admesh output file> > <new tidy tsv file>
 bash admesh2tsv.bash admesh.out > admesh.tsv
 ```
+
+#### `admesh2tsv.bash` is the script that converts from `admesh` to `tsv` format
+
+#### `admesh.out` is an example file output by `admesh` run on `stl` files of limpet shells.  Note that I clipped the "bottom" off of the limpet shell `stl` files prior to running admesh so that the surface area represents the dorsal surface area of the shell (not the ventral). The original `stl` file data is not provided, just the admesh output.
 
 ---
 
